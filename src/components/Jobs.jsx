@@ -24,7 +24,8 @@ const Jobs = () => {
 
     const handleJobClick = (url) => {
         // Redirect the user to the specified URL
-        window.location.href = url;
+        window.open(url, '_blank');
+
       };
 
     return (
