@@ -1,3 +1,5 @@
 import Hero from "./Hero";
+import Jobs from "./Jobs";
+import Footer from "./Footer";
 
-export {Hero}
+export {Hero, Jobs, Footer}
