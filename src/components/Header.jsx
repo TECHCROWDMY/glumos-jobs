@@ -36,7 +36,7 @@ const Header = () => {
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <img className="h-8 w-auto" src="https://cdn-images-1.medium.com/v2/resize:fit:1280/1*4Q6PIWw7n6bGpvEH7bDgkQ.png" alt="" />
+            <img className="h-10 w-auto" src="https://cdn-images-1.medium.com/v2/resize:fit:1280/1*4Q6PIWw7n6bGpvEH7bDgkQ.png" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
