@@ -23,7 +23,7 @@ const Hero = () => {
 
         <Header />
         
-        <div className="mx-auto max-w-2xl py-32">
+        <div className="mx-auto max-w-2xl py-16 md:py-32">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
               Join the best tech startups in the industry!
