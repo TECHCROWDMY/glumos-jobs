@@ -29,8 +29,7 @@ const Hero = () => {
               Join the best tech startups in the industry!
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            Get full-time, long-term remote software jobs with better compensation and career growth.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
