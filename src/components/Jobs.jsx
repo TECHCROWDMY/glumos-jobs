@@ -30,9 +30,9 @@ const Jobs = () => {
       };
 
     return (
-        <div className='grid grid-cols-3 gap-4 p-5 max-w-[1024px] mx-auto border border-black'>
-            <ul role="list" className="py-10 col-span-2 border border-black">
-                <h1 className='text-3xl font-circularStdMedium'>Latest Jobs</h1>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-10 p-5 max-w-[1024px] mx-auto'>
+            <ul role="list" className=" col-span-2">
+                <h1 className='py-5 text-3xl font-circularStdMedium'>Latest Jobs</h1>
                 {remoteJobs.map((job,i) => (
                     <JobCard 
                         key={i}
@@ -41,7 +41,7 @@ const Jobs = () => {
                     />
                 ))}
             </ul>
-            <div className='border border-black bg-[#b3cbff] rounded-lg'>
+            <div className='bg-[#b3cbff] rounded-lg'>
 
             </div>
         </div>
