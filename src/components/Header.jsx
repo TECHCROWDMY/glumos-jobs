@@ -1,43 +1,8 @@
 import { useState } from 'react';
-// import { useLocation } from 'react-router-dom';
 import { hamburgerMenu, close } from '../assets';
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
-  // const [isScrolled, setIsScrolled] = useState(false);
-  // const location = useLocation();
-  // const [activeMenu, setActiveMenu] = useState('');
-
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 0) {
-  //       setIsScrolled(true);
-  //     } else {
-  //       setIsScrolled(false);
-  //     }
-  //   };
-
-  //   window.addEventListener('scroll', handleScroll);
-
-  //   return () => {
-  //     window.removeEventListener('scroll', handleScroll);
-  //   };
-  // }, []);
-
-  // useEffect(() => {
-  //   // Parse the current route to determine the active menu item
-  //   const pathname = location.pathname;
-  //   let activeMenu = '';
-  //   if (pathname === '/') {
-  //     activeMenu = 'Home';
-  //   } else if (pathname === '/about') {
-  //     activeMenu = 'About';
-  //   } else if (pathname === '/templates') {
-  //     activeMenu = 'Templates';
-  //   }
-  //   setActiveMenu(activeMenu);
-  // }, [location.pathname]);
 
   return (
     <div className={`py-5 w-full h-[120px] bg-transparent fixed z-20 top-0 left-0 transition-all duration-300 `} >
