@@ -9,7 +9,7 @@ const Hero = () => {
 
       <div className="relative isolate px-6 lg:px-8 bg-[#0052CC]">
         <Header />
-        <div className="mx-auto max-w-2xl py-16 md:py-16">
+        <div className="mx-auto max-w-2xl py-16 md:pt-40 md:pb-28">
           <div className="text-center">
             <h1 className=" text-white text-4xl font-bold tracking-tight sm:text-6xl font-circularStdMedium">
               Join the best tech startups in the industry!
@@ -30,7 +30,6 @@ const Hero = () => {
             </div> */}
           </div>
         </div>
-        
       </div>
     </div>
   )

@@ -12,6 +12,15 @@
   src: url('../src/assets/fonts/CircularStd-Medium.ttf') format('truetype');
 }
 
+.body{
+  @apply font-circularStdMedium
+}
+
+.container{
+  @apply md:max-w-[1100px] max-w-[750px] mx-auto 
+}
+
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 const JobCard = ({ job, handleJobClick }) => {
   return (
-    <li key={job.id} className="hover:bg-[#b3cbff] flex justify-between gap-x-6 py-5 hover:cursor-pointer rounded-lg" onClick={() => handleJobClick(job.url)}  >
+    <li key={job.id} className="hover:bg-[#b3cbff] flex justify-between gap-x-6 py-5 px-5 hover:cursor-pointer rounded-lg" onClick={() => handleJobClick(job.url)}  >
         <div className="flex min-w-0 gap-x-4">
             <img className="h-12 w-12 flex-none rounded-full bg-gray-50 " src={job.company_logo} alt="" />
             <div className="min-w-0 flex-auto font-circularStdMedium tracking-wide">
