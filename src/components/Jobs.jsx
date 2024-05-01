@@ -4,6 +4,7 @@ import JobCard   from './JobCard';
 const Jobs = () => {
 
     const [remoteJobs, setRemoteJobs] = useState([]);
+    console.log(remoteJobs)
 
     useEffect(() => {
         const fetchData = async () => {
@@ -34,15 +35,16 @@ const Jobs = () => {
             <ul role="list" className="col-span-2">
                 <h1 className='py-5 text-3xl font-circularStdMedium'>Latest Jobs</h1>
                 {remoteJobs.map((job,i) => (
-                    <JobCard 
-                        key={i}
+                    <div key={i} className="border-b-[1px] border-black-500">
+                        <JobCard 
                         job={job}
                         handleJobClick={handleJobClick}
-                    />
+                        />
+                    </div>
                 ))}
             </ul>
-            <div className='md:max-w-[288px] col-span-1 bg-[#f9fafb] border border-[#e5e7eb] rounded-lg'>
-
+            <div className='font-circularStdMedium px-5 py-6 md:max-w-[288px] col-span-1 bg-[#f9fafb] border border-[#e5e7eb] rounded-lg'>
+                <h1 className="text-[16px]">Job category</h1>
             </div>
         </div>
 
