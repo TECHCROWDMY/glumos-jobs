@@ -1,14 +1,16 @@
-import { Hero, Jobs, Footer } from './components';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages-section/Home';
+import PrivacyPolicy from './pages-section/PrivacyPolicy';
 
 function App() {
-
   return (
-    <>
-      <Hero />
-      <Jobs />
-      <Footer />
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

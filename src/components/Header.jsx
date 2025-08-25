@@ -1,24 +1,30 @@
 import { useState, useEffect } from 'react';
 import { hamburgerMenu, close } from '../assets';
 
-const Header = () => {
+const Header = ({fixed=false}) => {
   const [toggle, setToggle] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 100) { // Change 100 to the desired scroll height
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
-    };
+    if (fixed) {
+      setIsScrolled(true);
+    } else {
+      const handleScroll = () => {
+        if (window.scrollY > 100) {
+          setIsScrolled(true);
+        } else {
+          setIsScrolled(false);
+        }
+      };
 
-    window.addEventListener('scroll', handleScroll);
+      window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+
+    }
+
   }, []);
 
   return (

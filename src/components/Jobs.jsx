@@ -87,7 +87,7 @@ const Jobs = () => {
           <div className="flex justify-center mt-5">
             <button
               onClick={handleLoadMore}
-              className="px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700"
+              className="font-circularStdBook px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-700"
             >
               Load More
             </button>

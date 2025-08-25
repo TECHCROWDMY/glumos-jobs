@@ -15,21 +15,6 @@ const JobCard = ({ job, handleJobClick }) => {
                 </div>
             </div>
         </div>
-        {/* <div className="hidden shrink-0 sm:flex sm:flex-col sm:items-end">
-            <p className="text-sm leading-6 text-gray-900">{job.role}</p>
-            {job?.lastSeen ? (
-                <p className="mt-1 text-xs leading-5 text-gray-500">
-                Last seen <time dateTime={job.lastSeenDateTime}>{job.lastSeen}</time>
-                </p>
-            ) : (
-                <div className="mt-1 flex items-center gap-x-1.5">
-                <div className="flex-none rounded-full bg-emerald-500/20 p-1">
-                    <div className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
-                </div>
-                <p className="text-xs leading-5 text-gray-500">{job.salary}</p>
-                </div>
-            )}
-        </div> */}
     </li>
   );
 }

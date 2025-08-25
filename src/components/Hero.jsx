@@ -5,8 +5,6 @@ const Hero = () => {
   
   return (
     <div className="bg-white">
-
-
       <div className="relative isolate px-6 lg:px-8 bg-[#0052CC]">
         <Header />
         <div className="mx-auto max-w-2xl py-16 md:pt-40 md:pb-28">
