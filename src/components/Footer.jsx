@@ -4,7 +4,7 @@ const Footer = () => {
         <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0">
-                <a href="https://flowbite.com/" className="flex items-center">
+                <a href="https://glumos.netlify.app/" className="flex items-center">
                         <img className="h-8 w-auto" src="https://cdn-images-1.medium.com/v2/resize:fit:1280/1*4Q6PIWw7n6bGpvEH7bDgkQ.png" alt="" />
                 </a>
             </div>
