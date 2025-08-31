@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages-section/Home';
-import PrivacyPolicy from './pages-section/PrivacyPolicy';
+import PrivacyPolicyPage from './pages-section/PrivacyPolicyPage';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
       </Routes>
     </BrowserRouter>
   );

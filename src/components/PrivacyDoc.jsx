@@ -1,6 +1,4 @@
-import React from 'react';
-
-function PrivacyPolicy() {
+const PrivacyDoc = () => {
   return (
     <div className="font-circularStdBook container mx-auto p-4 md:p-8 bg-white rounded-lg my-8 md:pt-[96px]">
       <h1 className="pt-[64px] text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">Privacy Policy for Glumos</h1>
@@ -152,4 +150,4 @@ function PrivacyPolicy() {
   );
 }
 
-export default PrivacyPolicy;
+export default PrivacyDoc;
