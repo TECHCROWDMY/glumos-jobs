@@ -1,6 +1,6 @@
 import { Header, Footer, PrivacyPolicy } from '../components';
 
-function Home() {
+function PrivacyPolicy() {
 
   return (
     <>
@@ -11,4 +11,4 @@ function Home() {
   )
 }
 
-export default Home
+export default PrivacyPolicy
