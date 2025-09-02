@@ -1,4 +1,4 @@
-import { Hero, Jobs, Footer } from '../components';
+import { Hero, Jobs, Footer, Blogs } from '../components';
 
 function Home() {
 
@@ -6,6 +6,7 @@ function Home() {
     <>
       <Hero />
       <Jobs />
+      <Blogs />
       <Footer />
     </>
   )

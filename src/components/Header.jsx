@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { hamburgerMenu, close } from '../assets';
+import { Link } from 'react-router-dom';
 
 const Header = ({fixed=false}) => {
   const [toggle, setToggle] = useState(false);
@@ -30,7 +31,9 @@ const Header = ({fixed=false}) => {
   return (
     <div className={`py-2 w-full h-[90px] ${isScrolled ? 'bg-[#0052CC]' : 'bg-transparent'} fixed z-20 top-0 left-0 transition-all duration-300`}>
       <div className="container h-full flex justify-between items-center px-5">
-        <img className="h-10 w-auto" src="https://cdn-images-1.medium.com/v2/resize:fit:1280/1*4Q6PIWw7n6bGpvEH7bDgkQ.png" alt="" />
+        <Link to="/" >
+          <img className="h-10 w-auto" src="https://cdn-images-1.medium.com/v2/resize:fit:1280/1*4Q6PIWw7n6bGpvEH7bDgkQ.png" alt="" />
+        </Link>
 
         <div className="hidden md:flex">
           <button className="px-8 py-3 rounded-[100px] bg-white text-[#0052cc] font-circularStdMedium">

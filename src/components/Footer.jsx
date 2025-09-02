@@ -32,7 +32,7 @@ const Footer = () => {
             </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
         <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="font-circularStdBook text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Glumos. All Rights Reserved.
+            <span className="font-circularStdBook text-sm text-gray-500 sm:text-center dark:text-gray-400">© {new Date().getFullYear()} Glumos. All Rights Reserved.
             </span>
         </div>
         </div>
