@@ -65,15 +65,13 @@ export const BLOGS = [
     date: 'September 8, 2025',
     // ADDED: The banner image URL for this specific blog post
     bannerImage: 'https://cdn-images-1.medium.com/max/900/1*uPq7yL-h2WlNvVjR4f5rMQ.png', // Replace with the actual URL of your banner image
-    content: `<div style="max-width: 900px; margin: auto; padding: 20px 40px; background: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333;">
+    content: `<div style="max-width: 900px; margin: 0 auto; padding: 20px;">
 
-    <h1 style="text-align: center; color: #2c3e50; border-bottom: 2px solid #e2e2e2; padding-bottom: 10px;">The AI Revolution in Hiring: Thriving as a Job Seeker</h1>
+    <h1 style="text-align: center; color: #2c3e50; padding-bottom: 10px;">The AI Revolution in Hiring: Thriving as a Job Seeker</h1>
 
     <p>The integration of Artificial Intelligence into the hiring process is no longer a futuristic concept—it's a present-day reality. From automated resume screeners to AI-powered chatbots, technology is reshaping how companies find and evaluate talent. This shift can feel daunting for job seekers, but it presents a unique opportunity. By understanding how to work with AI and focusing on what makes you uniquely human, you can position yourself as an indispensable candidate in a competitive landscape.</p>
 
-    <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
-
-    <h2 style="color: #2c3e50; margin-top: 30px; border-bottom: 1px solid #e2e2e2; padding-bottom: 5px;">Part 1: The New Gatekeepers - Understanding AI in Hiring</h2>
+    <h2 style="color: #2c3e50; margin-top: 30px; padding-bottom: 5px;">Part 1: The New Gatekeepers - Understanding AI in Hiring</h2>
     <p>First, let's demystify how AI is being used in the hiring process. AI tools are primarily designed to improve efficiency by handling repetitive tasks, such as:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
         <li style="margin-bottom: 10px;"><strong>Applicant Tracking Systems (ATS):</strong> These systems scan and filter resumes based on keywords, skills, and qualifications mentioned in the job description. If your resume doesn't align with the algorithm's criteria, it may never reach a human recruiter. A 2024 study found that a significant number of qualified resumes are discarded by ATS for simple formatting or keyword issues.</li>
@@ -84,7 +82,7 @@ export const BLOGS = [
 
     <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
 
-    <h2 style="color: #2c3e50; margin-top: 30px; border-bottom: 1px solid #e2e2e2; padding-bottom: 5px;">Part 2: The Un-Automate-able Advantage - Cultivating Human Skills</h2>
+    <h2 style="color: #2c3e50; margin-top: 30px;  padding-bottom: 5px;">Part 2: The Un-Automate-able Advantage - Cultivating Human Skills</h2>
     <p>While AI excels at data analysis and repetitive tasks, it struggles with qualities that are fundamentally human. These are the skills you should focus on developing, highlighting, and demonstrating to set yourself apart.</p>
 
     <div style="font-size: 1.2em; font-weight: bold; color: #2c3e50; margin-top: 20px;">1. Critical Thinking and Problem-Solving</div>
@@ -110,7 +108,7 @@ export const BLOGS = [
 
     <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
 
-    <h2 style="color: #2c3e50; margin-top: 30px; border-bottom: 1px solid #e2e2e2; padding-bottom: 5px;">Part 3: Partnering with AI - Leveraging Technology to Your Advantage</h2>
+    <h2 style="color: #2c3e50; margin-top: 30px;  padding-bottom: 5px;">Part 3: Partnering with AI - Leveraging Technology to Your Advantage</h2>
     <p>Instead of fearing AI, learn to use it as a tool to improve your job search.</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
         <li style="margin-bottom: 10px;"><strong>Resume and Cover Letter Optimization:</strong> Use AI writing tools to check your resume and cover letter for grammar, clarity, and to ensure you have incorporated relevant keywords from the job description. Many free tools can analyze a job posting and suggest keywords to include to pass an ATS. Be careful not to keyword-stuff; the content must still read naturally and make sense to a human reader.</li>
@@ -120,7 +118,7 @@ export const BLOGS = [
 
     <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
 
-    <h2 style="color: #2c3e50; margin-top: 30px; border-bottom: 1px solid #e2e2e2; padding-bottom: 5px;">Part 4: The Interview of the Future</h2>
+    <h2 style="color: #2c3e50; margin-top: 30px;  padding-bottom: 5px;">Part 4: The Interview of the Future</h2>
     <p>Once you've made it through the AI screening, you'll likely face a human interviewer. Here’s how to ace that final stage and prove your value.</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
         <li style="margin-bottom: 10px;"><strong>Be a Storyteller:</strong> Don’t just list your skills; tell compelling stories that illustrate how you used them. Use the STAR method in your interview responses to provide context and demonstrate your impact.</li>
@@ -131,7 +129,7 @@ export const BLOGS = [
 
     <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
 
-    <h2 style="color: #2c3e50; margin-top: 30px; border-bottom: 1px solid #e2e2e2; padding-bottom: 5px;">Conclusion</h2>
+    <h2 style="color: #2c3e50; margin-top: 30px;  padding-bottom: 5px;">Conclusion</h2>
     <p>The future of work is not "humans vs. AI," but "humans with AI." Your competitiveness in the job market will come from a strategic blend of two things: an understanding of how to use technology to your advantage and a deep focus on the uniquely human skills that AI cannot replicate. By embracing lifelong learning and showcasing your creativity, critical thinking, and emotional intelligence, you will not only survive this new era of work, but truly thrive.</p>
 </div>`,
   },
