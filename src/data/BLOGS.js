@@ -59,7 +59,7 @@ export const BLOGS = [
   },
   {
     id: '2',
-    slug: 'ai-as-career-coach',
+    slug: "future-proof-your-career-a-job-seekers-guide-to-thriving-in-an-ai-world",
     title: "Future-Proof Your Career: A Job Seeker's Guide to Thriving in an AI World",
     author: 'AI In Jobseeking',
     date: 'September 8, 2025',
