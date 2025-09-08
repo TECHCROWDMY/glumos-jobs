@@ -67,12 +67,10 @@ export const BLOGS = [
     bannerImage: 'https://cdn-images-1.medium.com/max/900/1*uPq7yL-h2WlNvVjR4f5rMQ.png', // Replace with the actual URL of your banner image
     content: `<div style="max-width: 900px; margin: 0 auto; padding: 20px;">
 
-    <h1 style="text-align: center; color: #2c3e50; padding-bottom: 10px;">The AI Revolution in Hiring: Thriving as a Job Seeker</h1>
-
     <p>The integration of Artificial Intelligence into the hiring process is no longer a futuristic concept—it's a present-day reality. From automated resume screeners to AI-powered chatbots, technology is reshaping how companies find and evaluate talent. This shift can feel daunting for job seekers, but it presents a unique opportunity. By understanding how to work with AI and focusing on what makes you uniquely human, you can position yourself as an indispensable candidate in a competitive landscape.</p>
 
-    <h2 style="color: #2c3e50; margin-top: 30px; padding-bottom: 5px;">Part 1: The New Gatekeepers - Understanding AI in Hiring</h2>
-    <p>First, let's demystify how AI is being used in the hiring process. AI tools are primarily designed to improve efficiency by handling repetitive tasks, such as:</p>
+    <h2 style="font-size: 1.2em; font-weight: bold; margin-top: 30px; padding-bottom: 5px;">Part 1: The New Gatekeepers - Understanding AI in Hiring</h2>
+    <p style="margin-bottom: 20px;">First, let's demystify how AI is being used in the hiring process. AI tools are primarily designed to improve efficiency by handling repetitive tasks, such as:</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
         <li style="margin-bottom: 10px;"><strong>Applicant Tracking Systems (ATS):</strong> These systems scan and filter resumes based on keywords, skills, and qualifications mentioned in the job description. If your resume doesn't align with the algorithm's criteria, it may never reach a human recruiter. A 2024 study found that a significant number of qualified resumes are discarded by ATS for simple formatting or keyword issues.</li>
         <li style="margin-bottom: 10px;"><strong>AI-Powered Chatbots:</strong> Used for initial candidate screening, these bots ask basic questions about your experience, availability, and salary expectations to qualify or disqualify you before a human gets involved. They often use natural language processing to understand your responses and route you to the appropriate hiring pipeline.</li>
@@ -82,33 +80,33 @@ export const BLOGS = [
 
     <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
 
-    <h2 style="color: #2c3e50; margin-top: 30px;  padding-bottom: 5px;">Part 2: The Un-Automate-able Advantage - Cultivating Human Skills</h2>
+    <h2 style="font-size: 1.2em; font-weight: bold; margin-top: 30px; padding-bottom: 5px;">Part 2: The Un-Automate-able Advantage - Cultivating Human Skills</h2>
     <p>While AI excels at data analysis and repetitive tasks, it struggles with qualities that are fundamentally human. These are the skills you should focus on developing, highlighting, and demonstrating to set yourself apart.</p>
 
-    <div style="font-size: 1.2em; font-weight: bold; color: #2c3e50; margin-top: 20px;">1. Critical Thinking and Problem-Solving</div>
+    <p style="font-weight: bold; margin-top: 20px;">1. Critical Thinking and Problem-Solving</p>
     <p>AI can process vast amounts of data to find patterns and suggest solutions, but it can't handle complex, novel problems that require true innovation. Employers want candidates who can analyze a situation, think strategically, and come up with creative solutions that aren't based on historical data. To showcase this skill, go beyond simply listing "problem-solving" on your resume. Use the STAR method (Situation, Task, Action, Result) to frame your accomplishments. For example:</p>
     <div style="background-color: #ecf0f1; padding: 15px; border-left: 4px solid #3498db; margin: 20px 0; border-radius: 4px;">
         <p><strong>Instead of:</strong> "Solved customer service issues."</p>
         <p><strong>Try:</strong> "Implemented a new ticketing system that reduced average customer wait times by 30%, resulting in a 15% increase in customer satisfaction scores."</p>
     </div>
 
-    <div style="font-size: 1.2em; font-weight: bold; color: #2c3e50; margin-top: 20px;">2. Emotional Intelligence (EQ) and Communication</div>
+    <p style="font-weight: bold; margin-top: 50px;">2. Emotional Intelligence (EQ) and Communication</p>
     <p>Machines don't have feelings. They can't build rapport, empathize with a client's frustration, or navigate team conflict. Communication, collaboration, and emotional intelligence are more valuable than ever. Strong communicators can translate complex technical concepts into simple terms, build trust with colleagues, and lead teams effectively. To highlight your EQ, think about how you handle feedback, manage team disagreements, or communicate with diverse audiences. On your resume or in an interview, you can talk about a time when you:</p>
-    <ul style="list-style-type: disc; padding-left: 20px;">
+    <ul style="list-style-type: disc; padding-left: 20px; margin-top:20px">
         <li style="margin-bottom: 10px;">Mediated a conflict between team members to achieve a shared goal.</li>
         <li style="margin-bottom: 10px;">Successfully presented a complex project to a non-technical audience.</li>
         <li style="margin-bottom: 10px;">Received constructive feedback and used it to improve your performance.</li>
     </ul>
 
-    <div style="font-size: 1.2em; font-weight: bold; color: #2c3e50; margin-top: 20px;">3. Creativity and Innovation</div>
+    <div style="font-weight: bold; margin-top: 50px;">3. Creativity and Innovation</div>
     <p>AI can "remix" existing ideas, but it cannot create something truly new from nothing. Your ability to think outside the box, generate original ideas, and bring a fresh perspective to a problem is a powerful asset. Focus on showcasing projects where you had to be resourceful and inventive. This doesn't have to be a major invention; it could be a simple process improvement you designed at your last job or a creative solution you developed to save costs. In your portfolio or on your LinkedIn, share details about a personal project where you had to be inventive or a time when you pitched a new idea that was successfully implemented.</p>
 
-    <div style="font-size: 1.2em; font-weight: bold; color: #2c3e50; margin-top: 20px;">4. Adaptability and Lifelong Learning</div>
+    <p style="font-weight: bold; margin-top: 50px;">4. Adaptability and Lifelong Learning</p>
     <p>The pace of technological change is accelerating. The most successful professionals won't be those who know one thing, but those who can quickly learn new things. Cultivating a growth mindset and demonstrating your ability to adapt to new tools and processes is crucial. Quantify your commitment to learning. Did you take a new course or earn a certification? Include it! Did you teach yourself a new programming language or software? Highlight it on your resume. This shows employers that you are not just capable of learning, but that you are proactive about it.</p>
 
-    <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
+    <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0; margin-top: 50px;">
 
-    <h2 style="color: #2c3e50; margin-top: 30px;  padding-bottom: 5px;">Part 3: Partnering with AI - Leveraging Technology to Your Advantage</h2>
+    <h2 style="font-size: 1.2em; font-weight: bold; margin-top: 50px;  padding-bottom: 5px;">Part 3: Partnering with AI - Leveraging Technology to Your Advantage</h2>
     <p>Instead of fearing AI, learn to use it as a tool to improve your job search.</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
         <li style="margin-bottom: 10px;"><strong>Resume and Cover Letter Optimization:</strong> Use AI writing tools to check your resume and cover letter for grammar, clarity, and to ensure you have incorporated relevant keywords from the job description. Many free tools can analyze a job posting and suggest keywords to include to pass an ATS. Be careful not to keyword-stuff; the content must still read naturally and make sense to a human reader.</li>
@@ -116,9 +114,9 @@ export const BLOGS = [
         <li style="margin-bottom: 10px;"><strong>Interview Preparation:</strong> Practice for interviews by using AI-powered platforms that simulate interviews and provide feedback on your answers, speaking pace, and non-verbal cues. This is a great way to refine your delivery and feel more confident before the real thing.</li>
     </ul>
 
-    <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
+    <hr style="margin-top: 50px; border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
 
-    <h2 style="color: #2c3e50; margin-top: 30px;  padding-bottom: 5px;">Part 4: The Interview of the Future</h2>
+    <h2 style="font-size: 1.2em; font-weight: bold; margin-top: 50px;  padding-bottom: 5px;">Part 4: The Interview of the Future</h2>
     <p>Once you've made it through the AI screening, you'll likely face a human interviewer. Here’s how to ace that final stage and prove your value.</p>
     <ul style="list-style-type: disc; padding-left: 20px;">
         <li style="margin-bottom: 10px;"><strong>Be a Storyteller:</strong> Don’t just list your skills; tell compelling stories that illustrate how you used them. Use the STAR method in your interview responses to provide context and demonstrate your impact.</li>
@@ -129,7 +127,7 @@ export const BLOGS = [
 
     <hr style="border: 0; height: 1px; background: #e2e2e2; margin: 20px 0;">
 
-    <h2 style="color: #2c3e50; margin-top: 30px;  padding-bottom: 5px;">Conclusion</h2>
+    <h2 style="font-weight: bold; margin-top: 50px;  padding-bottom: 5px;">Conclusion</h2>
     <p>The future of work is not "humans vs. AI," but "humans with AI." Your competitiveness in the job market will come from a strategic blend of two things: an understanding of how to use technology to your advantage and a deep focus on the uniquely human skills that AI cannot replicate. By embracing lifelong learning and showcasing your creativity, critical thinking, and emotional intelligence, you will not only survive this new era of work, but truly thrive.</p>
 </div>`,
   },
